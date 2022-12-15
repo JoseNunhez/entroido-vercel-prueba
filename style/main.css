@@ -8,6 +8,7 @@ body{
     background-size: cover;
     background-repeat:repeat-x;
     background-attachment:fixed;
+    overflow: scroll;
     background-position: center;
     height: 100vh;
     margin:0;
