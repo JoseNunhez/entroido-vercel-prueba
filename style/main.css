@@ -8,7 +8,6 @@ body{
     background-size: cover;
     background-repeat:repeat-x;
     background-attachment:fixed;
-    overflow: scroll;
     background-position: center;
     height: 100vh;
     margin:0;
@@ -40,10 +39,10 @@ h2{
 p{
     font-size: 1rem;
     text-align: left;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 .fondo-blanco{
-    background-color: rgba(255, 255, 255, 0.694);
+    background-color: rgba(255, 255, 255, 0.794);
     margin: 1rem 5% 5% 5%;
 }
 .btn-menu{
@@ -102,4 +101,43 @@ p{
     color: #fff;
     cursor: pointer;
     font-size: 18px;
+}
+
+
+/*CONTACO*/
+#cointainer-articles-contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.article-contacto {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+}
+
+/*SITIOS DE INTERESE*/
+
+#cointainer-articles-sitios-interes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.article-sitios-interes {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    place-items: center;
+}
+.img-enlace-sitios-interes{
+    border-radius: 10px;
+    float: right;
 }
