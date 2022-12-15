@@ -352,3 +352,46 @@ a{
     border-radius: 10px;
     float: right;
 }
+
+
+
+
+/*CALENDARIO*/
+#calendario{
+    height: max-content;
+    display: flex;
+    place-content: center;
+    margin-top: 4rem;
+}
+#calendario iframe{
+    width: 98%;
+    min-height: 500px;
+    max-width: 800px;
+    min-width: 330px;
+    height: 80%;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+/*Agora*/
+#eventosAgora{
+    margin: 4rem 0;
+}
+#eventosAgora article{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    margin: 1rem 5%;
+}
+#eventosAgora article h2 {
+    text-transform: uppercase;
+}
+.fechaEvento {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: rgb(123, 87, 43);
+}
+.descripcionEvento:first-letter {
+    text-transform: capitalize;
+}
